@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "rRUs9mu0fx8nGlRk6HPNg7miEbzq86p1AAgUGWFNeIex58YdIg1iRJ8JtpsS3ybC27yCYgFmM2Fy+APdgRT2GA==",
+  "success": true,
+  "projectFilePath": "F:\\VisualStudio\\Chat_Avenue\\Chat_Avenue\\Chat_Avenue.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\thanOs\\.nuget\\packages\\restsharp\\108.0.2\\restsharp.108.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
