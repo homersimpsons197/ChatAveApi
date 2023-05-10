@@ -179,29 +179,7 @@ namespace Chat_Avenue.Data
 
             Random rand = new Random();
 
-            string[] arr0 = new string[10] { "hi all", "hii all", "hi", "hiii", "hello", "hello ppl", "hey", "hey there", "hi guys", "good day" };
-            int r = rand.Next(0, 10);
-            msg += arr0[r] + ",";
-            r = rand.Next(0, 2);
-            if (r == 0)
-            {              
-                string[] arr1 = new string[10] { "im f usa w big tits", "f nyc big tits", "who love big tits?", "im in nyc", "f usa seeking male around nyc", "girl in usa here", "big tits ny", "i got big tits", "female usa in here", "im f nyc" };
-                r = rand.Next(0, 10);
-                msg += " " + arr1[r];
-            }
-            r = rand.Next(0, 2);
-            if (r == 0)
-            {
-                string[] arr2 = new string[10] { "some guys wanna chat?", "pm?", "inbox?", "man down to chat?", "pm chat?", "chat?", "want men from usa", "is there males around nyc?", "anyone to chat?", "seeking sexy man" };
-                r = rand.Next(0, 10);
-                msg += " " + arr2[r];
-            }
-
-            char last = msg[msg.Length - 1];
-            if (last.Equals(','))
-            {
-                msg = msg.Replace(",", "");
-            }
+            
 
             return msg;
         }
